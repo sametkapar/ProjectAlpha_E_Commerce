@@ -1,0 +1,11 @@
+C:\Users\user\source\repos\ProjectAlpha\ProjectAlpha\bin\Debug\ProjectAlpha.exe.config
+C:\Users\user\source\repos\ProjectAlpha\ProjectAlpha\bin\Debug\ProjectAlpha.exe
+C:\Users\user\source\repos\ProjectAlpha\ProjectAlpha\bin\Debug\ProjectAlpha.pdb
+C:\Users\user\source\repos\ProjectAlpha\ProjectAlpha\obj\Debug\ProjectAlpha.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\ProjectAlpha\ProjectAlpha\obj\Debug\ProjectAlpha.LoginScreen.resources
+C:\Users\user\source\repos\ProjectAlpha\ProjectAlpha\obj\Debug\ProjectAlpha.Properties.Resources.resources
+C:\Users\user\source\repos\ProjectAlpha\ProjectAlpha\obj\Debug\ProjectAlpha.csproj.GenerateResource.cache
+C:\Users\user\source\repos\ProjectAlpha\ProjectAlpha\obj\Debug\ProjectAlpha.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ProjectAlpha\ProjectAlpha\obj\Debug\ProjectAlpha.exe
+C:\Users\user\source\repos\ProjectAlpha\ProjectAlpha\obj\Debug\ProjectAlpha.pdb
+C:\Users\user\source\repos\ProjectAlpha\ProjectAlpha\obj\Debug\ProjectAlpha.MainForm.resources
