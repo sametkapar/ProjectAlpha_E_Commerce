@@ -28,7 +28,7 @@ namespace ProjectAlpha
                 using (SqlConnection con = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=ProjectAlpha_DB;Integrated Security=true"))
                 {
                     SqlCommand cmd = con.CreateCommand();
-                    cmd.CommandText = "SELECT ID, Name, Surname, Mail, Password, Name+' '+Surname, Username FROM Manager Where Username = @un AND Password = @pw";
+                    cmd.CommandText = "SELECT M.ID, Name, Surname, Mail, Password, Name+' '+Surname, Username, MT.ID, MT.Type FROM Manager as M JOIN ManagerType as MT ON M.ManagerID = MT.ID Where Username = @un AND Password = @pw";
                     cmd.Parameters.AddWithValue("@un", tb_username.Text);
                     cmd.Parameters.AddWithValue("@pw", tb_password.Text);
                     con.Open();
@@ -44,6 +44,8 @@ namespace ProjectAlpha
                         u.Password = rdr.GetString(4);
                         u.Fullname = rdr.GetString(5);
                         u.Username = rdr.GetString(6);
+                        u.ManagerID = rdr.GetInt32(7);
+                        u.ManagerType = rdr.GetString(8);
                     }
                     if (u != null)
                     {

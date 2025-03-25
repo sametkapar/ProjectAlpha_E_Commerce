@@ -9,3 +9,14 @@ C:\Users\user\source\repos\ProjectAlpha\ProjectAlpha\obj\Debug\ProjectAlpha.cspr
 C:\Users\user\source\repos\ProjectAlpha\ProjectAlpha\obj\Debug\ProjectAlpha.exe
 C:\Users\user\source\repos\ProjectAlpha\ProjectAlpha\obj\Debug\ProjectAlpha.pdb
 C:\Users\user\source\repos\ProjectAlpha\ProjectAlpha\obj\Debug\ProjectAlpha.MainForm.resources
+C:\Users\user\Documents\GitHub\ProjectAlpha_E_Commerce\ProjectAlpha\bin\Debug\ProjectAlpha.exe.config
+C:\Users\user\Documents\GitHub\ProjectAlpha_E_Commerce\ProjectAlpha\bin\Debug\ProjectAlpha.exe
+C:\Users\user\Documents\GitHub\ProjectAlpha_E_Commerce\ProjectAlpha\bin\Debug\ProjectAlpha.pdb
+C:\Users\user\Documents\GitHub\ProjectAlpha_E_Commerce\ProjectAlpha\obj\Debug\ProjectAlpha.csproj.AssemblyReference.cache
+C:\Users\user\Documents\GitHub\ProjectAlpha_E_Commerce\ProjectAlpha\obj\Debug\ProjectAlpha.LoginScreen.resources
+C:\Users\user\Documents\GitHub\ProjectAlpha_E_Commerce\ProjectAlpha\obj\Debug\ProjectAlpha.MainForm.resources
+C:\Users\user\Documents\GitHub\ProjectAlpha_E_Commerce\ProjectAlpha\obj\Debug\ProjectAlpha.Properties.Resources.resources
+C:\Users\user\Documents\GitHub\ProjectAlpha_E_Commerce\ProjectAlpha\obj\Debug\ProjectAlpha.csproj.GenerateResource.cache
+C:\Users\user\Documents\GitHub\ProjectAlpha_E_Commerce\ProjectAlpha\obj\Debug\ProjectAlpha.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\ProjectAlpha_E_Commerce\ProjectAlpha\obj\Debug\ProjectAlpha.exe
+C:\Users\user\Documents\GitHub\ProjectAlpha_E_Commerce\ProjectAlpha\obj\Debug\ProjectAlpha.pdb

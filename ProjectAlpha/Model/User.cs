@@ -15,5 +15,8 @@ namespace ProjectAlpha.Model
         public string Password { get; set; }
         public string Email { get; set; }
         public string Username { get; set; }
+        public int ManagerID { get; set; }
+        public string ManagerType { get; set; }
+
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjectAlpha.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,6 +23,8 @@ namespace ProjectAlpha
         {
             LoginScreen lgnscrn = new LoginScreen();
             lgnscrn.ShowDialog();
+
+            toolStripStatusLabel1.Text ="Kullanıcı: " +  LoginUser.user.Username + "Rol: " + LoginUser.user.ManagerType;
 
         }
     }

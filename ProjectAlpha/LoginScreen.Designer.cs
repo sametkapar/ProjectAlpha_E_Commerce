@@ -75,14 +75,15 @@
             // 
             // tb_password
             // 
-            this.tb_password.Location = new System.Drawing.Point(109, 80);
+            this.tb_password.Location = new System.Drawing.Point(109, 83);
             this.tb_password.Name = "tb_password";
+            this.tb_password.PasswordChar = '*';
             this.tb_password.Size = new System.Drawing.Size(120, 20);
             this.tb_password.TabIndex = 2;
             // 
             // tb_username
             // 
-            this.tb_username.Location = new System.Drawing.Point(109, 43);
+            this.tb_username.Location = new System.Drawing.Point(109, 42);
             this.tb_username.Name = "tb_username";
             this.tb_username.Size = new System.Drawing.Size(120, 20);
             this.tb_username.TabIndex = 1;
@@ -146,12 +147,13 @@
             // 
             this.btn_Login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(74)))), ((int)(((byte)(95)))));
             this.btn_Login.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Login.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_Login.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn_Login.Location = new System.Drawing.Point(276, 224);
             this.btn_Login.Name = "btn_Login";
             this.btn_Login.Size = new System.Drawing.Size(107, 41);
             this.btn_Login.TabIndex = 2;
-            this.btn_Login.Text = "Login";
+            this.btn_Login.Text = "GİRİŞ";
             this.btn_Login.UseVisualStyleBackColor = false;
             this.btn_Login.Click += new System.EventHandler(this.btn_Login_Click);
             // 
