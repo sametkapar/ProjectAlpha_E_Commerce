@@ -20,3 +20,4 @@ C:\Users\user\Documents\GitHub\ProjectAlpha_E_Commerce\ProjectAlpha\obj\Debug\Pr
 C:\Users\user\Documents\GitHub\ProjectAlpha_E_Commerce\ProjectAlpha\obj\Debug\ProjectAlpha.csproj.CoreCompileInputs.cache
 C:\Users\user\Documents\GitHub\ProjectAlpha_E_Commerce\ProjectAlpha\obj\Debug\ProjectAlpha.exe
 C:\Users\user\Documents\GitHub\ProjectAlpha_E_Commerce\ProjectAlpha\obj\Debug\ProjectAlpha.pdb
+C:\Users\user\Documents\GitHub\ProjectAlpha_E_Commerce\ProjectAlpha\obj\Debug\ProjectAlpha.ProductDetails.resources
