@@ -52,13 +52,14 @@
             this.groupBox1.Controls.Add(this.tb_username);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.groupBox1.Location = new System.Drawing.Point(12, 106);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(258, 159);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Kullanıcı Girişi";
+            this.groupBox1.Text = "GİRİŞ";
             // 
             // linkLabel1
             // 
@@ -78,14 +79,14 @@
             this.tb_password.Location = new System.Drawing.Point(109, 83);
             this.tb_password.Name = "tb_password";
             this.tb_password.PasswordChar = '*';
-            this.tb_password.Size = new System.Drawing.Size(120, 20);
+            this.tb_password.Size = new System.Drawing.Size(120, 21);
             this.tb_password.TabIndex = 2;
             // 
             // tb_username
             // 
             this.tb_username.Location = new System.Drawing.Point(109, 42);
             this.tb_username.Name = "tb_username";
-            this.tb_username.Size = new System.Drawing.Size(120, 20);
+            this.tb_username.Size = new System.Drawing.Size(120, 21);
             this.tb_username.TabIndex = 1;
             // 
             // label2
@@ -115,11 +116,12 @@
             this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(74)))), ((int)(((byte)(95)))));
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.pb_logo);
+            this.groupBox2.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.groupBox2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.groupBox2.Location = new System.Drawing.Point(12, 12);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(422, 88);
-            this.groupBox2.TabIndex = 1;
+            this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             // 
             // label3
@@ -147,12 +149,13 @@
             // 
             this.btn_Login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(74)))), ((int)(((byte)(95)))));
             this.btn_Login.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Login.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_Login.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_Login.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn_Login.Location = new System.Drawing.Point(276, 224);
             this.btn_Login.Name = "btn_Login";
             this.btn_Login.Size = new System.Drawing.Size(107, 41);
-            this.btn_Login.TabIndex = 2;
+            this.btn_Login.TabIndex = 3;
             this.btn_Login.Text = "GİRİŞ";
             this.btn_Login.UseVisualStyleBackColor = false;
             this.btn_Login.Click += new System.EventHandler(this.btn_Login_Click);
@@ -161,12 +164,13 @@
             // 
             this.btn_close.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(74)))), ((int)(((byte)(95)))));
             this.btn_close.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_close.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_close.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_close.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn_close.Location = new System.Drawing.Point(389, 224);
             this.btn_close.Name = "btn_close";
             this.btn_close.Size = new System.Drawing.Size(45, 41);
-            this.btn_close.TabIndex = 2;
+            this.btn_close.TabIndex = 4;
             this.btn_close.Text = "X";
             this.btn_close.UseVisualStyleBackColor = false;
             this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
@@ -202,11 +206,11 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox tb_password;
         private System.Windows.Forms.TextBox tb_username;
-        private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.PictureBox pb_logo;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btn_Login;
         private System.Windows.Forms.Button btn_close;
+        private System.Windows.Forms.GroupBox groupBox2;
     }
 }

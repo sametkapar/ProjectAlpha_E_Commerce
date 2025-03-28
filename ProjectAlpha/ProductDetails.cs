@@ -25,7 +25,7 @@ namespace ProjectAlpha
         }
         public void ProductDetail(int id)
         {
-            List<Product> products = new List<Product>();
+
             SqlConnection con = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=ProjectAlpha_DB;Integrated Security=true");
             SqlCommand cmd = con.CreateCommand();
             cmd.CommandText = "SELECT P.ID, P.Name, Stock, Price, C.Name, B.Name, P.Description FROM Product as P JOIN Category as C ON C.ID  = P.CategoryID JOIN Brand as B ON B.ID = P.BrandID WHERE P.ID = @id";
@@ -43,9 +43,7 @@ namespace ProjectAlpha
                 p.CategoryName = reader.GetString(4);
                 p.BrandName = reader.GetString(5);
                 p.Description = reader.GetString(6);
-                products.Add(p);
             }
-            groupBox1.Text = products[0].BrandName + products[0].Name;
         }
     }
 }

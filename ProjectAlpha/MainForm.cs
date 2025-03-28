@@ -15,7 +15,7 @@ namespace ProjectAlpha
 {
     public partial class MainForm : Form
     {
-        int rowindex = -1;
+
         public MainForm()
         {
             InitializeComponent();
@@ -30,47 +30,48 @@ namespace ProjectAlpha
                 CI_TS.Enabled = false;
             }
             toolStripStatusLabel1.Text = "Kullanıcı: " + LoginUser.user.Username + "Rol: " + LoginUser.user.ManagerType;
-            ProductList();
+       
 
         }
-        public void ProductList()
+        private void TSMI_urunList_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=ProjectAlpha_DB;Integrated Security=true");
-            SqlCommand cmd = con.CreateCommand();
-            cmd.CommandText = "SELECT P.ID, P.Name, Stock, Price, C.Name, B.Name FROM Product as P JOIN Category as C ON C.ID  = P.CategoryID JOIN Brand as B ON B.ID = P.BrandID";
-            con.Open();
-            SqlDataReader reader = cmd.ExecuteReader();
-            DataTable dt = new DataTable();
-            dt.Columns.Add("Product ID");
-            dt.Columns.Add("Brand Name");
-            dt.Columns.Add("Name");
-            dt.Columns.Add("Stock");
-            dt.Columns.Add("Price");
-            dt.Columns.Add("Category");
-            while (reader.Read())
+            Form[] acikFormlar = this.MdiChildren;
+            bool acikMi = false;
+            foreach (Form form in acikFormlar)
             {
-                int id = reader.GetInt32(0);
-                string name = reader.GetString(1);
-                int stock = reader.GetInt16(2);
-                decimal price = reader.GetDecimal(3);
-                string categoryName = reader.GetString(4);
-                string brandName = reader.GetString(5);
-                dt.Rows.Add(id, brandName, name, stock, price, categoryName);
+                if (form.GetType() == typeof(ProductManagement))
+                {
+                    acikMi = true;
+                    form.Activate();
+                }
             }
-            dataGridView1.DataSource = dt;
+            if (acikMi == false)
+            {
+                ProductManagement frm = new ProductManagement();
+                frm.MdiParent = this;
+                frm.WindowState = FormWindowState.Maximized;
+                frm.Show();
+            }
         }
 
-        private void dataGridView1_MouseDoubleClick(object sender, MouseEventArgs e)
+        private void TSMI_urunEkle_Click(object sender, EventArgs e)
         {
-            dataGridView1.ClearSelection();
-            rowindex = dataGridView1.HitTest(e.X, e.Y).RowIndex;
-            if (rowindex != -1)
+            Form[] acikFormlar = this.MdiChildren;
+            bool acikMi = false;
+            foreach (Form form in acikFormlar)
             {
-                int id = Convert.ToInt32(dataGridView1.Rows[rowindex].Cells[0].Value);
-                dataGridView1.Rows[rowindex].Selected = true;
-                ProductDetails frm = new ProductDetails(id);
+                if (form.GetType() == typeof(ProductAdd))
+                {
+                    acikMi = true;
+                    form.Activate();
+                }
+            }
+            if (acikMi == false)
+            {
+                ProductAdd frm = new ProductAdd();
+                frm.MdiParent = this;
+                frm.WindowState = FormWindowState.Maximized;
                 frm.Show();
-           
             }
         }
     }

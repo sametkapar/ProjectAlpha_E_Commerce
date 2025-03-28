@@ -3,28 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\ProjectAlpha_E_Commerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A71AF9A0-D6DA-430B-B36B-9DB621D17C8C}|ProjectAlpha\\ProjectAlpha.csproj|C:\\Users\\user\\Documents\\GitHub\\ProjectAlpha_E_Commerce\\projectalpha\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A71AF9A0-D6DA-430B-B36B-9DB621D17C8C}|ProjectAlpha\\ProjectAlpha.csproj|solutionrelative:projectalpha\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A71AF9A0-D6DA-430B-B36B-9DB621D17C8C}|ProjectAlpha\\ProjectAlpha.csproj|c:\\users\\user\\documents\\github\\projectalpha_e_commerce\\projectalpha\\productadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71AF9A0-D6DA-430B-B36B-9DB621D17C8C}|ProjectAlpha\\ProjectAlpha.csproj|solutionrelative:projectalpha\\productadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A71AF9A0-D6DA-430B-B36B-9DB621D17C8C}|ProjectAlpha\\ProjectAlpha.csproj|C:\\Users\\user\\Documents\\GitHub\\ProjectAlpha_E_Commerce\\projectalpha\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A71AF9A0-D6DA-430B-B36B-9DB621D17C8C}|ProjectAlpha\\ProjectAlpha.csproj|solutionrelative:projectalpha\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A71AF9A0-D6DA-430B-B36B-9DB621D17C8C}|ProjectAlpha\\ProjectAlpha.csproj|c:\\users\\user\\documents\\github\\projectalpha_e_commerce\\projectalpha\\productadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A71AF9A0-D6DA-430B-B36B-9DB621D17C8C}|ProjectAlpha\\ProjectAlpha.csproj|solutionrelative:projectalpha\\productadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A71AF9A0-D6DA-430B-B36B-9DB621D17C8C}|ProjectAlpha\\ProjectAlpha.csproj|C:\\Users\\user\\Documents\\GitHub\\ProjectAlpha_E_Commerce\\projectalpha\\loginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A71AF9A0-D6DA-430B-B36B-9DB621D17C8C}|ProjectAlpha\\ProjectAlpha.csproj|c:\\users\\user\\documents\\github\\projectalpha_e_commerce\\projectalpha\\productmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A71AF9A0-D6DA-430B-B36B-9DB621D17C8C}|ProjectAlpha\\ProjectAlpha.csproj|solutionrelative:projectalpha\\productmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71AF9A0-D6DA-430B-B36B-9DB621D17C8C}|ProjectAlpha\\ProjectAlpha.csproj|c:\\users\\user\\documents\\github\\projectalpha_e_commerce\\projectalpha\\productmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71AF9A0-D6DA-430B-B36B-9DB621D17C8C}|ProjectAlpha\\ProjectAlpha.csproj|solutionrelative:projectalpha\\productmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71AF9A0-D6DA-430B-B36B-9DB621D17C8C}|ProjectAlpha\\ProjectAlpha.csproj|c:\\users\\user\\documents\\github\\projectalpha_e_commerce\\projectalpha\\loginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A71AF9A0-D6DA-430B-B36B-9DB621D17C8C}|ProjectAlpha\\ProjectAlpha.csproj|solutionrelative:projectalpha\\loginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A71AF9A0-D6DA-430B-B36B-9DB621D17C8C}|ProjectAlpha\\ProjectAlpha.csproj|C:\\Users\\user\\Documents\\GitHub\\ProjectAlpha_E_Commerce\\projectalpha\\productdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A71AF9A0-D6DA-430B-B36B-9DB621D17C8C}|ProjectAlpha\\ProjectAlpha.csproj|solutionrelative:projectalpha\\productdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A71AF9A0-D6DA-430B-B36B-9DB621D17C8C}|ProjectAlpha\\ProjectAlpha.csproj|c:\\users\\user\\documents\\github\\projectalpha_e_commerce\\projectalpha\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71AF9A0-D6DA-430B-B36B-9DB621D17C8C}|ProjectAlpha\\ProjectAlpha.csproj|solutionrelative:projectalpha\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A71AF9A0-D6DA-430B-B36B-9DB621D17C8C}|ProjectAlpha\\ProjectAlpha.csproj|c:\\users\\user\\documents\\github\\projectalpha_e_commerce\\projectalpha\\productdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A71AF9A0-D6DA-430B-B36B-9DB621D17C8C}|ProjectAlpha\\ProjectAlpha.csproj|solutionrelative:projectalpha\\productdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A71AF9A0-D6DA-430B-B36B-9DB621D17C8C}|ProjectAlpha\\ProjectAlpha.csproj|c:\\users\\user\\documents\\github\\projectalpha_e_commerce\\projectalpha\\model\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71AF9A0-D6DA-430B-B36B-9DB621D17C8C}|ProjectAlpha\\ProjectAlpha.csproj|solutionrelative:projectalpha\\model\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A71AF9A0-D6DA-430B-B36B-9DB621D17C8C}|ProjectAlpha\\ProjectAlpha.csproj|C:\\Users\\user\\Documents\\GitHub\\ProjectAlpha_E_Commerce\\projectalpha\\loginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A71AF9A0-D6DA-430B-B36B-9DB621D17C8C}|ProjectAlpha\\ProjectAlpha.csproj|solutionrelative:projectalpha\\loginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A71AF9A0-D6DA-430B-B36B-9DB621D17C8C}|ProjectAlpha\\ProjectAlpha.csproj|c:\\users\\user\\documents\\github\\projectalpha_e_commerce\\projectalpha\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71AF9A0-D6DA-430B-B36B-9DB621D17C8C}|ProjectAlpha\\ProjectAlpha.csproj|solutionrelative:projectalpha\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71AF9A0-D6DA-430B-B36B-9DB621D17C8C}|ProjectAlpha\\ProjectAlpha.csproj|c:\\users\\user\\documents\\github\\projectalpha_e_commerce\\projectalpha\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A71AF9A0-D6DA-430B-B36B-9DB621D17C8C}|ProjectAlpha\\ProjectAlpha.csproj|solutionrelative:projectalpha\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,78 +50,116 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductDetails.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ProjectAlpha_E_Commerce\\ProjectAlpha\\ProductDetails.cs",
-              "RelativeDocumentMoniker": "ProjectAlpha\\ProductDetails.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ProjectAlpha_E_Commerce\\ProjectAlpha\\ProductDetails.cs",
-              "RelativeToolTip": "ProjectAlpha\\ProductDetails.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAgwCwAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T11:16:23.38Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ProductDetails.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ProjectAlpha_E_Commerce\\ProjectAlpha\\ProductDetails.cs",
-              "RelativeDocumentMoniker": "ProjectAlpha\\ProductDetails.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ProjectAlpha_E_Commerce\\ProjectAlpha\\ProductDetails.cs [Design]",
-              "RelativeToolTip": "ProjectAlpha\\ProductDetails.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T09:26:59.246Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "LoginScreen.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ProjectAlpha_E_Commerce\\ProjectAlpha\\LoginScreen.cs",
               "RelativeDocumentMoniker": "ProjectAlpha\\LoginScreen.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ProjectAlpha_E_Commerce\\ProjectAlpha\\LoginScreen.cs",
               "RelativeToolTip": "ProjectAlpha\\LoginScreen.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAqwCIAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAowEUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T10:34:24.106Z",
+              "WhenOpened": "2025-03-28T13:26:55.126Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginScreen.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ProjectAlpha_E_Commerce\\ProjectAlpha\\LoginScreen.cs",
-              "RelativeDocumentMoniker": "ProjectAlpha\\LoginScreen.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ProjectAlpha_E_Commerce\\ProjectAlpha\\LoginScreen.cs [Design]",
-              "RelativeToolTip": "ProjectAlpha\\LoginScreen.cs [Design]",
+              "DocumentIndex": 6,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ProjectAlpha_E_Commerce\\ProjectAlpha\\Model\\Brand.cs",
+              "RelativeDocumentMoniker": "ProjectAlpha\\Model\\Brand.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ProjectAlpha_E_Commerce\\ProjectAlpha\\Model\\Brand.cs",
+              "RelativeToolTip": "ProjectAlpha\\Model\\Brand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T10:34:23.256Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-03-28T13:24:48.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductManagement.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ProjectAlpha_E_Commerce\\ProjectAlpha\\ProductManagement.cs",
+              "RelativeDocumentMoniker": "ProjectAlpha\\ProductManagement.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ProjectAlpha_E_Commerce\\ProjectAlpha\\ProductManagement.cs",
+              "RelativeToolTip": "ProjectAlpha\\ProductManagement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T13:10:14.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ProjectAlpha_E_Commerce\\ProjectAlpha\\Model\\Category.cs",
+              "RelativeDocumentMoniker": "ProjectAlpha\\Model\\Category.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ProjectAlpha_E_Commerce\\ProjectAlpha\\Model\\Category.cs",
+              "RelativeToolTip": "ProjectAlpha\\Model\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T13:07:07.367Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ProjectAlpha_E_Commerce\\ProjectAlpha\\MainForm.cs",
-              "RelativeDocumentMoniker": "ProjectAlpha\\MainForm.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ProjectAlpha_E_Commerce\\ProjectAlpha\\MainForm.cs",
-              "RelativeToolTip": "ProjectAlpha\\MainForm.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAwwC0AAAAjAAAAAAAAAA==",
+              "Title": "ProductAdd.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ProjectAlpha_E_Commerce\\ProjectAlpha\\ProductAdd.cs",
+              "RelativeDocumentMoniker": "ProjectAlpha\\ProductAdd.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ProjectAlpha_E_Commerce\\ProjectAlpha\\ProductAdd.cs",
+              "RelativeToolTip": "ProjectAlpha\\ProductAdd.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAwwE4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T10:16:41.847Z",
+              "WhenOpened": "2025-03-28T12:51:08.268Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ProductAdd.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ProjectAlpha_E_Commerce\\ProjectAlpha\\ProductAdd.cs",
+              "RelativeDocumentMoniker": "ProjectAlpha\\ProductAdd.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ProjectAlpha_E_Commerce\\ProjectAlpha\\ProductAdd.cs [Design]",
+              "RelativeToolTip": "ProjectAlpha\\ProductAdd.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T11:21:52.9Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductManagement.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ProjectAlpha_E_Commerce\\ProjectAlpha\\ProductManagement.cs",
+              "RelativeDocumentMoniker": "ProjectAlpha\\ProductManagement.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ProjectAlpha_E_Commerce\\ProjectAlpha\\ProductManagement.cs [Design]",
+              "RelativeToolTip": "ProjectAlpha\\ProductManagement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T11:20:56.294Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ProjectAlpha_E_Commerce\\ProjectAlpha\\MainForm.cs",
+              "RelativeDocumentMoniker": "ProjectAlpha\\MainForm.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ProjectAlpha_E_Commerce\\ProjectAlpha\\MainForm.cs",
+              "RelativeToolTip": "ProjectAlpha\\MainForm.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowEMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T11:18:35.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ProjectAlpha_E_Commerce\\ProjectAlpha\\MainForm.cs",
               "RelativeDocumentMoniker": "ProjectAlpha\\MainForm.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ProjectAlpha_E_Commerce\\ProjectAlpha\\MainForm.cs [Design]",
               "RelativeToolTip": "ProjectAlpha\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T10:11:52.745Z",
+              "WhenOpened": "2025-03-28T11:18:11.956Z",
               "EditorCaption": " [Design]"
             }
           ]
