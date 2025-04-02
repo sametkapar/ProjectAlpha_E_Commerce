@@ -33,11 +33,13 @@
             this.urunToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.TSMI_urunList = new System.Windows.Forms.ToolStripMenuItem();
             this.TSMI_urunEkle = new System.Windows.Forms.ToolStripMenuItem();
-            this.kategoriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.TSMI_kategoriList = new System.Windows.Forms.ToolStripMenuItem();
+            this.TSMI_categoryList = new System.Windows.Forms.ToolStripMenuItem();
             this.müşteriİşlemleriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.CI_TS = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.TSMI_categoryAdd = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -47,7 +49,7 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.anasayfaToolStripMenuItem,
             this.urunToolStripMenuItem,
-            this.kategoriToolStripMenuItem,
+            this.TSMI_kategoriList,
             this.müşteriİşlemleriToolStripMenuItem,
             this.CI_TS});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
@@ -74,22 +76,32 @@
             // TSMI_urunList
             // 
             this.TSMI_urunList.Name = "TSMI_urunList";
-            this.TSMI_urunList.Size = new System.Drawing.Size(180, 22);
+            this.TSMI_urunList.Size = new System.Drawing.Size(135, 22);
             this.TSMI_urunList.Text = "Ürün Listesi";
             this.TSMI_urunList.Click += new System.EventHandler(this.TSMI_urunList_Click);
             // 
             // TSMI_urunEkle
             // 
             this.TSMI_urunEkle.Name = "TSMI_urunEkle";
-            this.TSMI_urunEkle.Size = new System.Drawing.Size(180, 22);
+            this.TSMI_urunEkle.Size = new System.Drawing.Size(135, 22);
             this.TSMI_urunEkle.Text = "Ürün Ekle";
             this.TSMI_urunEkle.Click += new System.EventHandler(this.TSMI_urunEkle_Click);
             // 
-            // kategoriToolStripMenuItem
+            // TSMI_kategoriList
             // 
-            this.kategoriToolStripMenuItem.Name = "kategoriToolStripMenuItem";
-            this.kategoriToolStripMenuItem.Size = new System.Drawing.Size(63, 20);
-            this.kategoriToolStripMenuItem.Text = "Kategori";
+            this.TSMI_kategoriList.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.TSMI_categoryAdd,
+            this.TSMI_categoryList});
+            this.TSMI_kategoriList.Name = "TSMI_kategoriList";
+            this.TSMI_kategoriList.Size = new System.Drawing.Size(63, 20);
+            this.TSMI_kategoriList.Text = "Kategori";
+            // 
+            // TSMI_categoryList
+            // 
+            this.TSMI_categoryList.Name = "TSMI_categoryList";
+            this.TSMI_categoryList.Size = new System.Drawing.Size(180, 22);
+            this.TSMI_categoryList.Text = "Kategori Listesi";
+            this.TSMI_categoryList.Click += new System.EventHandler(this.TSMI_categoryList_Click);
             // 
             // müşteriİşlemleriToolStripMenuItem
             // 
@@ -127,6 +139,13 @@
             this.toolStripStatusLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.toolStripStatusLabel1.TextImageRelation = System.Windows.Forms.TextImageRelation.Overlay;
             // 
+            // TSMI_categoryAdd
+            // 
+            this.TSMI_categoryAdd.Name = "TSMI_categoryAdd";
+            this.TSMI_categoryAdd.Size = new System.Drawing.Size(180, 22);
+            this.TSMI_categoryAdd.Text = "Kategori Ekle";
+            this.TSMI_categoryAdd.Click += new System.EventHandler(this.TSMI_categoryAdd_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -159,7 +178,9 @@
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.ToolStripMenuItem TSMI_urunList;
-        private System.Windows.Forms.ToolStripMenuItem kategoriToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem TSMI_kategoriList;
         private System.Windows.Forms.ToolStripMenuItem TSMI_urunEkle;
+        private System.Windows.Forms.ToolStripMenuItem TSMI_categoryList;
+        private System.Windows.Forms.ToolStripMenuItem TSMI_categoryAdd;
     }
 }

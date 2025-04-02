@@ -23,3 +23,5 @@ C:\Users\user\Documents\GitHub\ProjectAlpha_E_Commerce\ProjectAlpha\obj\Debug\Pr
 C:\Users\user\Documents\GitHub\ProjectAlpha_E_Commerce\ProjectAlpha\obj\Debug\ProjectAlpha.ProductDetails.resources
 C:\Users\user\Documents\GitHub\ProjectAlpha_E_Commerce\ProjectAlpha\obj\Debug\ProjectAlpha.ProductManagement.resources
 C:\Users\user\Documents\GitHub\ProjectAlpha_E_Commerce\ProjectAlpha\obj\Debug\ProjectAlpha.ProductAdd.resources
+C:\Users\user\Documents\GitHub\ProjectAlpha_E_Commerce\ProjectAlpha\obj\Debug\ProjectAlpha.CategoryManagement.resources
+C:\Users\user\Documents\GitHub\ProjectAlpha_E_Commerce\ProjectAlpha\obj\Debug\ProjectAlpha.CategoryAdd.resources

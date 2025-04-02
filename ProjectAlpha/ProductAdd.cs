@@ -75,13 +75,44 @@ namespace ProjectAlpha
 
         private void btn_imageLoad_Click(object sender, EventArgs e)
         {
-            DialogResult sonuc = openFileDialog1.ShowDialog();
-            path = folderBrowserDialog1.SelectedPath;
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp;*.gif";
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                path = openFileDialog.FileName;
+                pb_productImage.Image = Image.FromFile(path);
+            }
+        }
+        private void btn_urunEkle_Click(object sender, EventArgs e)
+        {
+            //SqlConnection con = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=ProjectAlpha_DB;Integrated Security=true");
+            //SqlCommand cmd = con.CreateCommand();
+            //cmd.CommandText = "INSERT INTO Product (Name, BrandID, CategoryID, Stock, Price, Description, isActive, Image) VALUES (@name, @bid, @cid, @stock, @price, @desc, @iA, @img)";
+            //cmd.Parameters.AddWithValue("@name", tb_name.Text);
+            //int bid = cb_brandsName.SelectedIndex;
+            //cmd.Parameters.AddWithValue("@bid", bid);
+            //int cid = cb_brandsName.SelectedIndex;
+            //cmd.Parameters.AddWithValue("@cid", cid);
+            //int stok = Convert.ToInt16(tb_stock.Text);
+            //cmd.Parameters.AddWithValue("@stock", stok);
+            //decimal price = Convert.ToDecimal(tb_price.Text);
+            //cmd.Parameters.AddWithValue("@price", price);
+            //cmd.Parameters.AddWithValue("@desc", tb_description.Text);
+            //bool dis = rb_satistami.Checked;
+            //if (dis == true)
+            //{
+            //    cmd.Parameters.AddWithValue("@dis", rb_satistami.Checked);
+            //}
+            //else
+            //{
+            //    cmd.Parameters.AddWithValue("@dis", rb_satistami.Checked);
+            //}
 
-
+            Image productImg = pb_productImage.Image;
             FileInfo fi = new FileInfo(path);
-            pb_productImage.ImageLocation = path;
-            
+            string extention = fi.Extension;
+            string imageName = Guid.NewGuid().ToString() + extention;
+            productImg.Save("Assets/ProductImages/" + imageName);
         }
     }
 }

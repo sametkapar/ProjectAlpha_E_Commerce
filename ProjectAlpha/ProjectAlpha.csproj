@@ -47,6 +47,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CategoryAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CategoryAdd.Designer.cs">
+      <DependentUpon>CategoryAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CategoryManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CategoryManagement.Designer.cs">
+      <DependentUpon>CategoryManagement.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +96,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CategoryAdd.resx">
+      <DependentUpon>CategoryAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CategoryManagement.resx">
+      <DependentUpon>CategoryManagement.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginScreen.resx">
       <DependentUpon>LoginScreen.cs</DependentUpon>
     </EmbeddedResource>
@@ -123,8 +141,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\Pa.jpg" />
+    <Content Include="Assets\Images\Pa.jpg" />
     <None Include="Resources\Pa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\ProductImages\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

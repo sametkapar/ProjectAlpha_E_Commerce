@@ -74,5 +74,18 @@ namespace ProjectAlpha
                 frm.Show();
             }
         }
+
+
+        private void TSMI_categoryList_Click(object sender, EventArgs e)
+        {
+            CategoryManagement frm = new CategoryManagement();
+            frm.Show();
+        }
+
+        private void TSMI_categoryAdd_Click(object sender, EventArgs e)
+        {
+            CategoryAdd frm = new CategoryAdd();
+            frm.Show();
+        }
     }
 }
