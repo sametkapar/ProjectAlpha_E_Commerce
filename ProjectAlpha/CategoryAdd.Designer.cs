@@ -38,6 +38,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.btn_delete = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,6 +46,7 @@
             // 
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.Controls.Add(this.btn_delete);
             this.groupBox1.Controls.Add(this.btn_cancel);
             this.groupBox1.Controls.Add(this.btn_categoryAdd);
             this.groupBox1.Controls.Add(this.radioButton2);
@@ -67,7 +69,7 @@
             this.btn_cancel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_cancel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_cancel.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btn_cancel.Location = new System.Drawing.Point(194, 202);
+            this.btn_cancel.Location = new System.Drawing.Point(98, 202);
             this.btn_cancel.Name = "btn_cancel";
             this.btn_cancel.Size = new System.Drawing.Size(55, 32);
             this.btn_cancel.TabIndex = 12;
@@ -82,9 +84,9 @@
             this.btn_categoryAdd.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(74)))), ((int)(((byte)(95)))));
             this.btn_categoryAdd.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_categoryAdd.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btn_categoryAdd.Location = new System.Drawing.Point(122, 202);
+            this.btn_categoryAdd.Location = new System.Drawing.Point(9, 202);
             this.btn_categoryAdd.Name = "btn_categoryAdd";
-            this.btn_categoryAdd.Size = new System.Drawing.Size(55, 32);
+            this.btn_categoryAdd.Size = new System.Drawing.Size(83, 32);
             this.btn_categoryAdd.TabIndex = 13;
             this.btn_categoryAdd.Text = "EKLE";
             this.btn_categoryAdd.UseVisualStyleBackColor = false;
@@ -161,6 +163,21 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "Kategori Adı:";
             // 
+            // btn_delete
+            // 
+            this.btn_delete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.btn_delete.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_delete.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_delete.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_delete.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btn_delete.Location = new System.Drawing.Point(221, 202);
+            this.btn_delete.Name = "btn_delete";
+            this.btn_delete.Size = new System.Drawing.Size(38, 32);
+            this.btn_delete.TabIndex = 12;
+            this.btn_delete.Text = "SİL";
+            this.btn_delete.UseVisualStyleBackColor = false;
+            this.btn_delete.Click += new System.EventHandler(this.btn_delete_Click);
+            // 
             // CategoryAdd
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -190,5 +207,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btn_cancel;
         private System.Windows.Forms.Button btn_categoryAdd;
+        private System.Windows.Forms.Button btn_delete;
     }
 }

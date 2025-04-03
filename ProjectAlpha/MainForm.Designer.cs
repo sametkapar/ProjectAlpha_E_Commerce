@@ -34,12 +34,10 @@
             this.TSMI_urunList = new System.Windows.Forms.ToolStripMenuItem();
             this.TSMI_urunEkle = new System.Windows.Forms.ToolStripMenuItem();
             this.TSMI_kategoriList = new System.Windows.Forms.ToolStripMenuItem();
-            this.TSMI_categoryList = new System.Windows.Forms.ToolStripMenuItem();
             this.müşteriİşlemleriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.CI_TS = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.TSMI_categoryAdd = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -89,19 +87,10 @@
             // 
             // TSMI_kategoriList
             // 
-            this.TSMI_kategoriList.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.TSMI_categoryAdd,
-            this.TSMI_categoryList});
             this.TSMI_kategoriList.Name = "TSMI_kategoriList";
-            this.TSMI_kategoriList.Size = new System.Drawing.Size(63, 20);
-            this.TSMI_kategoriList.Text = "Kategori";
-            // 
-            // TSMI_categoryList
-            // 
-            this.TSMI_categoryList.Name = "TSMI_categoryList";
-            this.TSMI_categoryList.Size = new System.Drawing.Size(180, 22);
-            this.TSMI_categoryList.Text = "Kategori Listesi";
-            this.TSMI_categoryList.Click += new System.EventHandler(this.TSMI_categoryList_Click);
+            this.TSMI_kategoriList.Size = new System.Drawing.Size(76, 20);
+            this.TSMI_kategoriList.Text = "Kategoriler";
+            this.TSMI_kategoriList.Click += new System.EventHandler(this.TSMI_kategoriList_Click);
             // 
             // müşteriİşlemleriToolStripMenuItem
             // 
@@ -139,13 +128,6 @@
             this.toolStripStatusLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.toolStripStatusLabel1.TextImageRelation = System.Windows.Forms.TextImageRelation.Overlay;
             // 
-            // TSMI_categoryAdd
-            // 
-            this.TSMI_categoryAdd.Name = "TSMI_categoryAdd";
-            this.TSMI_categoryAdd.Size = new System.Drawing.Size(180, 22);
-            this.TSMI_categoryAdd.Text = "Kategori Ekle";
-            this.TSMI_categoryAdd.Click += new System.EventHandler(this.TSMI_categoryAdd_Click);
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -158,6 +140,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MainForm";
             this.Text = "Project Alpha Main Panel";
+            this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(138)))), ((int)(((byte)(175)))));
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -178,9 +161,7 @@
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.ToolStripMenuItem TSMI_urunList;
-        private System.Windows.Forms.ToolStripMenuItem TSMI_kategoriList;
         private System.Windows.Forms.ToolStripMenuItem TSMI_urunEkle;
-        private System.Windows.Forms.ToolStripMenuItem TSMI_categoryList;
-        private System.Windows.Forms.ToolStripMenuItem TSMI_categoryAdd;
+        private System.Windows.Forms.ToolStripMenuItem TSMI_kategoriList;
     }
 }

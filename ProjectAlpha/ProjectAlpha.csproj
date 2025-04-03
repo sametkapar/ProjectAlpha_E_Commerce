@@ -142,10 +142,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Images\Pa.jpg" />
+    <Content Include="Assets\ProductImages\none.jpg" />
     <None Include="Resources\Pa.jpg" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Assets\ProductImages\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

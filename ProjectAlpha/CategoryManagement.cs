@@ -43,16 +43,9 @@ namespace ProjectAlpha
             con.Close();
         }
 
-        private void btn_categoryAdd_Click(object sender, EventArgs e)
-        {
-            CategoryAdd frm = new CategoryAdd();
-            frm.Show();
-
-        }
-
         private void dataGridView1_MouseDoubleClick(object sender, MouseEventArgs e)
         {
-      
+            
             dataGridView1.ClearSelection();
             rowindex = dataGridView1.HitTest(e.X, e.Y).RowIndex;
             if (rowindex != -1)
@@ -60,9 +53,17 @@ namespace ProjectAlpha
                 int id = Convert.ToInt32(dataGridView1.Rows[rowindex].Cells[0].Value);
                 dataGridView1.Rows[rowindex].Selected = true;
                 CategoryAdd frm = new CategoryAdd(id);
+                frm.Text = "Kategori Güncelle";
                 frm.Show();
                 this.Close();
             }
+        }
+
+        private void linklbl_catadd_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            CategoryAdd frm = new CategoryAdd();
+            frm.Show();
+
         }
     }
 }

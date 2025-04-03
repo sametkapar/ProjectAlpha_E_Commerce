@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 namespace ProjectAlpha
 {
@@ -24,16 +25,17 @@ namespace ProjectAlpha
         {
             SqlConnection con = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=ProjectAlpha_DB;Integrated Security=true");
             SqlCommand cmd = con.CreateCommand();
-            cmd.CommandText = "SELECT P.ID, P.Name, Stock, Price, C.Name, B.Name FROM Product as P JOIN Category as C ON C.ID  = P.CategoryID JOIN Brand as B ON B.ID = P.BrandID";
+            cmd.CommandText = "SELECT P.ID, P.Name, Stock, Price, C.Name, B.Name, Image FROM Product as P JOIN Category as C ON C.ID  = P.CategoryID JOIN Brand as B ON B.ID = P.BrandID";
             con.Open();
             SqlDataReader reader = cmd.ExecuteReader();
             DataTable dt = new DataTable();
-            dt.Columns.Add("Product ID");
-            dt.Columns.Add("Brand Name");
-            dt.Columns.Add("Name");
-            dt.Columns.Add("Stock");
-            dt.Columns.Add("Price");
-            dt.Columns.Add("Category");
+            dt.Columns.Add("Ürün ID");
+            dt.Columns.Add("Marka");
+            dt.Columns.Add("İsim");
+            dt.Columns.Add("Stok Miktarı");
+            dt.Columns.Add("Fiyat");
+            dt.Columns.Add("Kategori");
+            //dt.Columns.Add("Image");
             while (reader.Read())
             {
                 int id = reader.GetInt32(0);
@@ -42,7 +44,9 @@ namespace ProjectAlpha
                 decimal price = reader.GetDecimal(3);
                 string categoryName = reader.GetString(4);
                 string brandName = reader.GetString(5);
-                dt.Rows.Add(id, brandName, name, stock, price, categoryName);
+                //string imagename = reader.IsDBNull(6) == false ? reader.GetString(6) : "none";
+                ////Image productImg =  Image.FromFile(@"C:\Users\user\Documents\GitHub\ProjectAlpha_E_Commerce\ProjectAlpha\Assets\ProductImages\" + imagename +".jpg");
+                dt.Rows.Add(id, brandName, name, stock, price, categoryName/*, productImg*/);
             }
             dataGridView1.DataSource = dt;
         }

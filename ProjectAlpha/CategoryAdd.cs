@@ -116,6 +116,7 @@ namespace ProjectAlpha
 
         public void CategoryShow(int id)
         {
+
             SqlConnection con = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=ProjectAlpha_DB;Integrated Security=true");
             SqlCommand cmd = con.CreateCommand();
             cmd.CommandText = "SELECT ID, Name, isActive FROM Category WHERE ID = @id";
@@ -136,6 +137,55 @@ namespace ProjectAlpha
             catch
             {
                 MessageBox.Show("Kategori getirirken bir hata oluştu", "Hata Var");
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+
+        private void btn_delete_Click(object sender, EventArgs e)
+        {
+            DialogResult answer = MessageBox.Show("Kategori silme işlemi gerçekleşsin mi?", "DİKKAT", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+            if (answer == DialogResult.OK) 
+            {
+                CategoryDelete();
+            }
+        }
+        public void CategoryDelete()
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=ProjectAlpha_DB;Integrated Security=true");
+            SqlCommand cmd = con.CreateCommand();
+
+            try
+            {
+                // Kategoriye ait ürün olup olmadığını kontrol et
+                cmd.CommandText = "SELECT COUNT(*) FROM Product WHERE CategoryID = @id";
+                cmd.Parameters.AddWithValue("@id", tb_ID.Text);
+                con.Open();
+                int productCount = (int)cmd.ExecuteScalar();
+
+                if (productCount > 0)
+                {
+                    MessageBox.Show("Bu kategoride ürün bulunmaktadır, silemezsiniz.");
+                    return;
+                }
+
+                cmd.CommandText = "UPDATE Category SET isDeleted=@idlt WHERE ID=@id";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@id", tb_ID.Text);
+                cmd.Parameters.AddWithValue("@idlt", true);
+                cmd.ExecuteNonQuery();
+                if (MessageBox.Show("Kategori Silindi", "Başarılı") == DialogResult.OK)
+                {
+                    this.Close();
+                    CategoryManagement frm = new CategoryManagement();
+                    frm.Show();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Silme işleminde bir hata oluştu.. Hata: " + ex.Message);
             }
             finally
             {

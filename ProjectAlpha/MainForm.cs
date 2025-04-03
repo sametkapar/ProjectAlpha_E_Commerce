@@ -19,10 +19,10 @@ namespace ProjectAlpha
         public MainForm()
         {
             InitializeComponent();
+
         }
         private void MainForm_Load(object sender, EventArgs e)
         {
-
             LoginScreen lgnscrn = new LoginScreen();
             lgnscrn.ShowDialog();
             if (LoginUser.user.ManagerID != 1)
@@ -30,8 +30,6 @@ namespace ProjectAlpha
                 CI_TS.Enabled = false;
             }
             toolStripStatusLabel1.Text = "Kullanıcı: " + LoginUser.user.Username + "Rol: " + LoginUser.user.ManagerType;
-       
-
         }
         private void TSMI_urunList_Click(object sender, EventArgs e)
         {
@@ -75,16 +73,15 @@ namespace ProjectAlpha
             }
         }
 
-
-        private void TSMI_categoryList_Click(object sender, EventArgs e)
-        {
-            CategoryManagement frm = new CategoryManagement();
-            frm.Show();
-        }
-
         private void TSMI_categoryAdd_Click(object sender, EventArgs e)
         {
             CategoryAdd frm = new CategoryAdd();
+            frm.Show();
+        }
+
+        private void TSMI_kategoriList_Click(object sender, EventArgs e)
+        {
+            CategoryManagement frm = new CategoryManagement();
             frm.Show();
         }
     }
